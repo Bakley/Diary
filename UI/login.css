@@ -1,5 +1,5 @@
-body {
-   
+/* The basic */
+body {   
     margin: 0;
     padding: 0;
     background: #DDD;
@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
-
+/* The login box should be centered */
 #login-box {
     position: relative;
     margin: 5% auto;
@@ -26,7 +26,7 @@ input {
     font-size: 12px;
     outline: none;
 }
-
+/* The text and password input types */
 input[type=text],
 input[type=password] {
     color: #777;
@@ -57,33 +57,13 @@ input[type=password]:focus {
     box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
 }
 
-input[type=submit]:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e2ff), to(#6ec2e8));
-    background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
-    background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
-}
-input[type=submit]:active {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#6ec2e8), to(#b6e2ff));
-    background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
-    background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
-}
-
-#lower {
-    background: #ecf2f5;
-    width: 100%;
-    height: 69px;
-    margin-top: 20px;
-}
-
+/* The Check box */
 input[type=checkbox] {
     margin-left: 20px;
     margin-top: 30px;
 }
 
-.check {
-    margin-left: 3px;
-}
-
+/* The submit input type */
 input[type=submit] {
     float: right;
     margin-right: 20px;
