@@ -5,7 +5,7 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     color: #444;
     -webkit-font-smoothing: antialised;
-    background: white;
+    background: #DDD;
 }
 
 /* The header title should be centered */
@@ -19,6 +19,7 @@ html, body {
     overflow: hidden;
     padding: 5px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 /* The Sign in and sign up on the nav bar should be on the right */

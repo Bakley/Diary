@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
 /* The login box should be centered */
 #login-box {
     position: relative;
@@ -73,7 +74,6 @@ input[type=submit] {
     font-size: 14px;
     font-weight: bold;
     color: #fff;
-    background-color: #acd6ef; /*IE fallback*/
     background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#6ec2e8));
     background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
     background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
@@ -86,4 +86,8 @@ input[type=submit] {
 /* Add a footer at the bottom of the page */
 .footer{
     text-align: center;
+    position: absolute;
+    bottom: 10;
+    width: 100%;
+    height: 2.5rem; 
 }
