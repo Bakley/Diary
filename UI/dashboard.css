@@ -1,0 +1,56 @@
+/* The basic */
+body {   
+    margin: 0;
+    padding: 0;
+    background: #DDD;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* The header title should be centered */
+.jumbotron{
+    text-align: center;
+}
+
+/* Add a black background on the top navigation bar */
+.topnav{
+    background-color: black;
+    overflow: hidden;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* The Sign in and sign up on the nav bar should be on the right */
+.authmethods{
+    float: right;
+}
+
+/* Style the links inside the  the navigation bar */
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover{
+    background-color: gray;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+#section{
+    justify-content: center;
+}
+

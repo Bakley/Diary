@@ -1,0 +1,81 @@
+/* Basics */
+body {
+    margin: 0;
+    padding: 0;
+    background: #DDD;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* The header title should be centered */
+.jumbotron{
+    text-align: center;
+}
+
+/* Add a black background on the top navigation bar */
+.topnav{
+    background-color: black;
+    overflow: hidden;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* The Sign in and sign up on the nav bar should be on the right */
+.authmethods{
+    float: right;
+}
+
+/* Style the links inside the  the navigation bar */
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover{
+    background-color: gray;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+/* Allign the text/content in the section */
+.body{
+    text-align: center;
+    position: relative;
+
+}
+
+/* Style the inputs in the section */
+input[type=button]{
+    margin-left:28px;
+    width: 228px;
+    height: 50px;
+    background: #16a085;
+    border:none;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+/* Add a footer at the bottom of the page */
+.footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;           
+  }
