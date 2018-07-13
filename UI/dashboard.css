@@ -1,5 +1,5 @@
-/* Basics */
-body {
+/* The basic */
+body {   
     margin: 0;
     padding: 0;
     background: #DDD;
@@ -49,33 +49,8 @@ body {
 .topnav .icon {
     display: none;
 }
-/* Allign the text/content in the section */
-.body{
-    text-align: center;
-    position: relative;
 
+#section{
+    justify-content: center;
 }
 
-/* Style the inputs in the section */
-input[type=button]{
-    margin-left:28px;
-    width: 228px;
-    height: 50px;
-    background: #16a085;
-    border:none;
-    border-radius: 5px;
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    transition: 0.1s ease;
-    cursor: pointer;
-}
-
-/* Add a footer at the bottom of the page */
-.footer {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;           
-  }
