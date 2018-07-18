@@ -23,11 +23,6 @@ body {
     border-radius: 10px;
 }
 
-/* The Sign in and sign up on the nav bar should be on the right */
-.authmethods{
-    float: right;
-}
-
 /* Style the links inside the  the navigation bar */
 .topnav a{
     float: left;
@@ -51,6 +46,9 @@ body {
 }
 
 #section{
-    justify-content: center;
+    text-align: center;
 }
 
+.wording{
+    text-align: center;
+}
